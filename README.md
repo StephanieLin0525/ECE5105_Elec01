@@ -25,7 +25,7 @@ The complete architecture is described in the *Final Design Report* (Section 6.0
 
 ## 🧠 Firmware (STM32L432KC)
 
-**Location:** `/firmware/main.c`
+**Location:** `UART/Core/Src/main.c`
 
 **Key Features**
 - 12-bit ADC sampling of PA0 (ADC1_IN5)
