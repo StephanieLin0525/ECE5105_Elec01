@@ -1,0 +1,7 @@
+../Core/Src/main.c:65:17:adc_read_pa0	1
+../Core/Src/main.c:86:14:raw_to_volt	1
+../Core/Src/main.c:95:14:avg10	4
+../Core/Src/main.c:129:13:send_line_sensor	4
+../Core/Src/main.c:168:5:main	1
+../Core/Src/main.c:226:6:SystemClock_Config	4
+../Core/Src/main.c:280:6:Error_Handler	1
