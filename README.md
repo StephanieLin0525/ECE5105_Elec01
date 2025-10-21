@@ -18,8 +18,8 @@ the STM32’s **12-bit ADC**, and streamed to the Raspberry Pi for visualization
 ---
 
 ## ⚙️ System Architecture
-The complete architecture is described in the *Final Design Report* (Section 6.0 & 9.0).
 <img width="637" height="187" alt="image" src="https://github.com/user-attachments/assets/3647ffd6-c0df-420d-af3f-710787d20d50" />
+The detail architecture is described in the *Final Design Report* (Section 6.0 & 9.0).
 
 ---
 
@@ -38,17 +38,3 @@ The complete architecture is described in the *Final Design Report* (Section 6.0
 **Power:** USB 5 V, on-board 3.3 V logic reference
 
 ---
-
-## 💻 Raspberry Pi GUI (FastAPI + WebSocket)
-
-**Location:** `/gui/`
-
-**Description**
-A lightweight **web-based GUI** built with **FastAPI** and **HTML5 Canvas** allows real-time visualization,
-threshold configuration, alarm logging, and data export.
-**Run on Raspberry Pi**
-```bash
-cd gui
-pip install -r requirements.txt
-python -m uvicorn server:app --reload
-# open http://127.0.0.1:8000  (or http://<pi-ip>:8000)
