@@ -19,6 +19,7 @@ the STM32’s **12-bit ADC**, and streamed to the Raspberry Pi for visualization
 
 ## ⚙️ System Architecture
 The complete architecture is described in the *Final Design Report* (Section 6.0 & 9.0).
+<img width="637" height="187" alt="image" src="https://github.com/user-attachments/assets/3647ffd6-c0df-420d-af3f-710787d20d50" />
 
 ---
 
